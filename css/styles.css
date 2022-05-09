@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oldenburg&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sacramento&display=swap');
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 120px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar img {
+  width: 75px;
+  height: 60px;
+  margin-left: 65px;
+}
+
+.titulo{
+  font-family: 'Oldenburg', cursive;
+  font-size: xx-large;
+}
+
+.tit{
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 65px;
+}
+
+.contenido{
+  display: block;
+  text-align: center;
+}
+
+.carga{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.carga .boton{
+  margin-left: 15px;
+}
+
+.resultados{
+  display: block; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultados .texto{
+  margin-top: 25px;
+  text-align: justify;
+}
